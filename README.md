@@ -40,6 +40,7 @@ Project ini adalah aplikasi manajemen data kampus berbasis web menggunakan PHP d
 
 ## Kontak
 - GitHub: [MassDika](https://github.com/MassDika)
+- M yuspi indi kurniawan
 
 ---
 
