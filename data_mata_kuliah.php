@@ -1,6 +1,6 @@
 <h2>Data mata kuliah</h2>
 <hr>
-<a href="index.php?hal=tambah_matkul" class="btn btn-success">Tambah Data</a>
+<a href="index.php?hal=tambah_matkul" class="btn btn-dark">Tambah Data</a>
 <?php
 // Notifikasi jika data mata kuliah berhasil dihapus
 if (isset($_GET['msg'])) {
@@ -17,7 +17,7 @@ if (isset($_GET['msg'])) {
     }
 }
 ?>
-<table id="example" class="table table-striped">
+<table id="example" class="table table-dark table-striped table-hover table-bordered mt-3 text-center text-white table-responsive table-sm">
     <thead>
         <tr>
             <th>No</th>

@@ -10,7 +10,7 @@
         <input type="text" name="jenjang" class="form-control" required>
     </div>
     <br>
-    <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
+    <button type="submit" name="simpan" class="btn btn-dark">Simpan</button>
 </form>
 
 <?php

@@ -45,8 +45,8 @@ if (isset($_POST['update'])) {
                     value="<?php echo htmlspecialchars($data['jenjang']); ?>" required>
             </div>
             <br>
-            <button type="submit" name="update" class="btn btn-primary">Update</button>
-            <a href="index.php?hal=data_prodi" class="btn btn-secondary">Batal</a>
+            <button type="submit" name="update" class="btn btn-dark">Update</button>
+            <a href="index.php?hal=data_prodi" class="btn btn-outline-dark">Batal</a>
         </form>
     </div>
 </body>

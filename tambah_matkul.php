@@ -50,6 +50,6 @@ if (isset($_POST['simpan'])) {
         <input type="number" name="sks" class="form-control" required>
     </div>
     <br>
-    <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
-    <a href="index.php?hal=data_mata_kuliah" class="btn btn-secondary">Batal</a>
+    <button type="submit" name="simpan" class="btn btn-dark">Simpan</button>
+    <a href="index.php?hal=data_mata_kuliah" class="btn btn-outline-dark">Batal</a>
 </form>

@@ -155,9 +155,9 @@ if (isset($_POST['simpan'])) {
                 <input type="file" name="foto" class="form-control mt-2">
                 <small class="form-text text-muted">Kosongkan jika tidak ingin mengubah foto.</small>
             </div>
-            <button type="submit" name="simpan" class="btn btn-primary">
+            <button type="submit" name="simpan" class="btn btn-dark">
                 <i class="fas fa-save"></i> Simpan</button>
-            <a href="index.php?hal=data_mahasiswa" class="btn btn-secondary">Kembali</a>
+            <a href="index.php?hal=data_mahasiswa" class="btn btn-outline-dark">Kembali</a>
         </form>
     </div>
 </body>

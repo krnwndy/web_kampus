@@ -1,7 +1,23 @@
 <h2>Data Mahasiswa</h2>
 <hr>
-<a href="index.php?hal=tambah_mhs" class="btn btn-success">Tambah Data</a>
-<table id="example" class="table table-striped">
+<a href="index.php?hal=tambah_mhs" class="btn btn-dark">Tambah Data</a>
+<?php
+if (isset($_GET['msg'])) {
+    if ($_GET['msg'] == 'deleted') {
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Berhasil!</strong> Data mahasiswa berhasil dihapus.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>';
+    } elseif ($_GET['msg'] == 'error') {
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Gagal!</strong> Data mahasiswa gagal dihapus.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>';
+    }
+}
+?>
+<table id="example"
+    class="table table-dark table-striped table-hover table-bordered mt-3 text-center text-white table-responsive table-sm ">
     <thead>
         <tr>
             <th>No</th>

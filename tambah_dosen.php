@@ -47,6 +47,6 @@ if (isset($_POST['simpan'])) {
         </select>
     </div>
     <br>
-    <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
-    <a href="index.php?hal=data_dosen" class="btn btn-secondary">Batal</a>
+    <button type="submit" name="simpan" class="btn btn-dark">Simpan</button>
+    <a href="index.php?hal=data_dosen" class="btn btn-outline-dark">Batal</a>
 </form> 
