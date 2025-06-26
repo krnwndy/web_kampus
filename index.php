@@ -32,8 +32,8 @@
             </div>
         </header>
     </div>
+    <h3>Selamat Datang di UTM Mataram</h3>
     <div class="container">
-
         <?php
         include "koneksi.php"; // Pastikan koneksi.php sudah benar
         
@@ -66,6 +66,12 @@
                 include "edit_matkul.php";
             } elseif ($_GET['hal'] == "hapus_matkul") {
                 include "hapus_matkul.php";
+            } elseif ($_GET['hal'] == "tambah_mhs") {
+                include "tambah_mhs.php";
+            } elseif ($_GET['hal'] == "edit_mhs") {
+                include "edit_mhs.php";
+            } elseif ($_GET['hal'] == "hapus_mhs") {
+                include "hapus_mhs.php";
             } else {
                 include "dashboard.php";
             }

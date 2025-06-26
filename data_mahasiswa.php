@@ -1,5 +1,6 @@
 <h2>Data Mahasiswa</h2>
 <hr>
+<a href="index.php?hal=tambah_mhs" class="btn btn-success">Tambah Data</a>
 <table id="example" class="table table-striped">
     <thead>
         <tr>
@@ -24,7 +25,7 @@
         while ($data = mysqli_fetch_array($query)) {
             echo "<tr>";
             echo "<td>" . $no++ . "</td>";
-            echo "<td><img src='uploads/mahasiswa/" . $data['foto'] . "' width='60' height='60' style='object-fit:cover;border-radius:50%;'></td>";
+            echo "<td><img src='images/photo/" . $data['foto'] . "' width='60' height='60' style='object-fit:cover;border-radius:50%;'></td>";
             echo "<td>" . $data['nim'] . "</td>";
             echo "<td>" . $data['nama_mahasiswa'] . "</td>";
             echo "<td>" . $data['jenis_kelamin'] . "</td>";
