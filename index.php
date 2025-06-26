@@ -32,7 +32,6 @@
             </div>
         </header>
     </div>
-    <h3>Selamat Datang di UTM Mataram</h3>
     <div class="container">
         <?php
         include "koneksi.php"; // Pastikan koneksi.php sudah benar

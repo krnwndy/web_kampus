@@ -32,8 +32,8 @@
             echo "<td>" . $data['alamat'] . "</td>";
             echo "<td>" . $data['nama_prodi'] . "</td>";
             echo "<td>
-                <a href='edit_mahasiswa.php?nim=" . $data['nim'] . "' class='btn btn-warning btn-sm'>Edit</a>
-                <a href='hapus_mahasiswa.php?nim=" . $data['nim'] . "' class='btn btn-danger btn-sm' onclick=\"return confirm('Yakin hapus?')\">Hapus</a>
+                <a href='edit_mhs.php?nim=" . $data['nim'] . "' class='btn btn-warning btn-sm'>Edit</a>
+                <a href='hapus_mhs.php?nim=" . $data['nim'] . "' class='btn btn-danger btn-sm' onclick=\"return confirm('Yakin hapus?')\">Hapus</a>
                 </td>";
             echo "</tr>";
         }
